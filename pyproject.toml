@@ -8,7 +8,9 @@ authors = [
     { name = "Aaron Neugebauer"}
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "result>=0.17.0",
+]
 
 [project.scripts]
 tetris = "tetris:main"
@@ -23,5 +25,4 @@ dev = [
 ]
 
 [tool.pytest.ini_options]
-testpaths = ["tests/exampl.py"]
 testpaths = ["tests/logic.py"]

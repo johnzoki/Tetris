@@ -15,7 +15,7 @@ def board_move_piece_down(board: Board, p_id: int) -> bool:
 
     Args:
         board (Board): The board in which the board.
-        piece_id (int): The id of the piece to move down.
+        p_id (int): The id of the piece to move down.
 
     Returns:
         True: if the operation succeeded or the p_id is zero.

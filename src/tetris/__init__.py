@@ -1,9 +1,5 @@
 from enum import Enum
 
-Board = list[list[int]]
-PieceMap = dict[int, PieceType]
-NextQueue = list[PieceType]
-
 
 class PieceType(Enum):
     Cube = 1
@@ -13,6 +9,11 @@ class PieceType(Enum):
     Sm = 5
     L = 6
     Lm = 7
+
+
+Board = list[list[int]]
+PieceMap = dict[int, PieceType]
+NextQueue = list[PieceType]
 
 
 def main() -> None:

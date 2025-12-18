@@ -7,3 +7,4 @@ class Gamestate:
         self.piece_queue: NextQueue = []
         self.piece_map: PieceMap = []
         self.hold_piece: PieceType | None = None
+        self.score: int = 0
